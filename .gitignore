@@ -1,0 +1,76 @@
+# ===============================
+# Python / Backend
+# ===============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Backend virtual environment
+backend/venv/
+backend/env/
+backend/.venv/
+
+# Flask instance folder
+backend/instance/
+
+# Pytest cache
+backend/.pytest_cache/
+
+# Coverage reports
+backend/htmlcov/
+backend/.coverage
+
+# Logs
+backend/*.log
+
+# Environment / secret files
+backend/*.env
+backend/.env.local
+backend/.env.*.local
+
+# Database files (optional)
+backend/*.sqlite3
+
+# ===============================
+# Node.js / Frontend
+# ===============================
+
+# Frontend node_modules
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+
+# Vite cache
+frontend/.vite/
+
+# npm / yarn logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# ===============================
+# Editor / IDE
+# ===============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===============================
+# OS-specific
+# ===============================
+.DS_Store
+Thumbs.db
